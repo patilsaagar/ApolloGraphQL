@@ -1,0 +1,32 @@
+query CountryDetails {
+  country(code: "GB") {
+    continent {
+      countries {
+        name
+        code
+        emoji
+        currency
+      }
+    }
+  }
+}
+
+query SearchCountryDetailsByContinent($code: String!) {
+  countries(filter: {
+    continent: {
+    eq: $code
+  }
+  }) {
+    code
+    name
+    emoji
+    currency
+  }
+}
+
+query ContinentList {
+  continents {
+    code
+    name
+  }
+}
