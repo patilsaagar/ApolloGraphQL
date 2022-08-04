@@ -20,6 +20,8 @@
 		88473FC7289BDF170029978E /* ContinentListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88473FC6289BDF170029978E /* ContinentListView.swift */; };
 		88473FC9289BDF730029978E /* ContinentListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88473FC8289BDF730029978E /* ContinentListViewModel.swift */; };
 		88473FD0289BF9E20029978E /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88473FCF289BF9E20029978E /* Constants.swift */; };
+		88473FD4289C1A620029978E /* DetailsScreen.png in Resources */ = {isa = PBXBuildFile; fileRef = 88473FD2289C1A620029978E /* DetailsScreen.png */; };
+		88473FD5289C1A620029978E /* ContinentsScreen.png in Resources */ = {isa = PBXBuildFile; fileRef = 88473FD3289C1A620029978E /* ContinentsScreen.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +39,8 @@
 		88473FC6289BDF170029978E /* ContinentListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContinentListView.swift; sourceTree = "<group>"; };
 		88473FC8289BDF730029978E /* ContinentListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContinentListViewModel.swift; sourceTree = "<group>"; };
 		88473FCF289BF9E20029978E /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		88473FD2289C1A620029978E /* DetailsScreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DetailsScreen.png; sourceTree = "<group>"; };
+		88473FD3289C1A620029978E /* ContinentsScreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ContinentsScreen.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,7 @@
 		88072017289B1FD000E02FC7 = {
 			isa = PBXGroup;
 			children = (
+				88473FD1289C1A340029978E /* Screenshots */,
 				88072022289B1FD000E02FC7 /* ApolloGraphQL */,
 				88072021289B1FD000E02FC7 /* Products */,
 			);
@@ -135,6 +140,15 @@
 			path = Constants;
 			sourceTree = "<group>";
 		};
+		88473FD1289C1A340029978E /* Screenshots */ = {
+			isa = PBXGroup;
+			children = (
+				88473FD3289C1A620029978E /* ContinentsScreen.png */,
+				88473FD2289C1A620029978E /* DetailsScreen.png */,
+			);
+			path = Screenshots;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -200,10 +214,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				88473FD5289C1A620029978E /* ContinentsScreen.png in Resources */,
 				8807203D289B2B2600E02FC7 /* SearchCountry.graphql in Resources */,
 				8807202B289B1FD100E02FC7 /* Preview Assets.xcassets in Resources */,
 				8807203B289B2ACA00E02FC7 /* schema.json in Resources */,
 				88072028289B1FD100E02FC7 /* Assets.xcassets in Resources */,
+				88473FD4289C1A620029978E /* DetailsScreen.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
