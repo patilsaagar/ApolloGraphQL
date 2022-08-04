@@ -20,7 +20,11 @@ SwiftUI Integration with GraphQL
 <img src="https://github.com/patilsaagar/ApolloGraphSQL/blob/main/Screenshots/DetailsScreen.png" width="200" height="400"/>
 
 ## Create Schema file command 
-apollo schema:download --endpoint=https://countries.trevorblades.com/ schema.json
+
+1) Open Terminal and goto your project path
+2) Enter below comand
+
+<YourUserName> <ProjectDirectory> % apollo schema:download --endpoint=https://countries.trevorblades.com/ schema.json
 
 ## Apollo GraphQl Installation Guide
 https://www.apollographql.com/docs/ios/installation
