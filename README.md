@@ -1,4 +1,4 @@
-# ApolloGraphSQL
+# ApolloGraphQL
 
 SwiftUI Integration with GraphQL
 
